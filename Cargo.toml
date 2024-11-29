@@ -1,0 +1,10 @@
+[package]
+name = "SimpleDBAPI"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+mongodb = "3.1.0"
+serde = "1.0.215"
+strum = { version = "0.26.3", features = ["derive"] }
