@@ -18,8 +18,8 @@ async fn test() {
     .await;
 
     let item = Item {
-        name: "".into(),
-        amount: 0.into()
+        name: "Scissors".into(),
+        amount: 1.into()
     };
 
     let req = TestRequest::post()
